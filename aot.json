@@ -1,5 +1,52 @@
 {
-    "characters": [
-        
-    ]
+    "characters": {
+        "name": [
+            "Eren Jeager",
+            "Grisha Jeager",
+            "Carla Jaeger",
+            "Armin Arlelt",
+            "Mikasa Ackermann",
+            "Levi Ackermann",
+            "Hange Zoë",
+            "Jean Kirschstein",
+            "Conny Springer",
+            "Sasha Braus",
+            "Erwin Smith",
+            "Marlo Freudenberg",
+            "Morblit Berner",   
+            "Miche Zacharius",
+            "Petra Rall",
+            "Hitch Dreyse",
+            "Boris Feulner",
+            "Dennis Aiblinger",
+            "Kenny Ackermann",
+            "Dot Pyxis",
+            "Hannes",
+            "Keith Sadies",
+            "Marco Bodt",
+            "Reiner Braun",
+            "Annie Leonhart",
+            "Pieck Finger",
+            "Falco Grice",
+            "Gabi Braun",
+            "Porco Galliard",
+            "Colt Grice",
+            "Bertholdt Hoover",
+            "Marcel Galliard",
+            "Tom Xaver",
+            "Eren Kruger",
+            "Dhalis Zachary",
+            "Historia Reiss",
+            "Wald",
+            "Nicholas Lovof",
+            "Rod Reiss",
+            "Frieda Reiss",
+            "Uri Reiss",
+            "Karl Fritz",
+            "Lara Tybur",
+            "Willy Tybur",
+            "Ymir Fritz",
+            "Fritz"
+        ]
+    }
 }
