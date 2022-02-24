@@ -1,29 +1,111 @@
 {
-    "characters": {
-        "name": [
-            "Eren Jeager",
-            "Grisha Jeager",
-            "Carla Jaeger",
+    "scouts": {
+        "names": [
             "Armin Arlelt",
             "Mikasa Ackermann",
-            "Levi Ackermann",
             "Hange Zoë",
             "Jean Kirschstein",
             "Conny Springer",
+            "Daz",
+            "Levi Ackermann",
+            "Buchwald",
+            "Lima",
+            "Charette",
+            "Varis",
             "Sasha Braus",
+            "Lobov",
             "Erwin Smith",
+            "Sandra",
+            "Gordon",
             "Marlo Freudenberg",
-            "Morblit Berner",   
+            "Tomas",
+            "Dieter",
+            "Dirk",
+            "Marlene",
+            "Klaus",
+            "Harold",
+            "Rashad",
+            "Lauda",
+            "Morblit Berner",
+            "Keiji",
+            "Abel",
+            "Nifa",
+            "Peer",
+            "Beirer",
+            "Nanaba",
+            "Gelgar",
+            "Henning",
+            "Lynne",
             "Miche Zacharius",
+            "Jurgen",
+            "Ivan",
+            "Oruo Bozad",
             "Petra Rall",
+            "Eld Gin",
+            "Gunther Schultz",
+            "Darius Walbrunn",
+            "Dieter Ness",
+            "Luke Cis",
+            "Ilse Langnar",
+            "Moses",
+            "Furlan Church",
+            "Flagon",
+            "Isabel Magnolia" 
+        ]
+    },
+    "military_police": {
+        "names": [
+            "Waltz",
             "Hitch Dreyse",
             "Boris Feulner",
             "Dennis Aiblinger",
+            "Roger",
+            "Roeg",
+            "Nile Dawk",
             "Kenny Ackermann",
+            "Caven",
+            "Duran"
+        ]
+    },
+    "garrison": {
+        "names": [
+            "Gustav",
+            "Anka Rheinberger",
+            "Kitz Woermann",
+            "Rico Brzenska",
+            "Carsten",
+            "Phil",
+            "Hugo",
             "Dot Pyxis",
             "Hannes",
+            "Ian Dietrich",
+            "Mitabi Jarnach"
+        ]
+    },
+    "cadet_corps": {
+        "names": [
             "Keith Sadies",
+            "Hanna Diament",
+            "Ruth D. Kline",
             "Marco Bodt",
+            "Tom",
+            "Franz Kefka",
+            "Mina Carolina",
+            "Milieus Zeremski",
+            "Nack Tierce",
+            "Thomas Wagner"
+        ]
+    },
+    "marleyan_military": {
+        "names": [
+            "Theo Magath",
+            "Koslow",
+            "Carlo",
+            "Calvi"
+        ]
+    },
+    "warriors": {
+        "names": [
             "Reiner Braun",
             "Annie Leonhart",
             "Pieck Finger",
@@ -31,22 +113,80 @@
             "Gabi Braun",
             "Porco Galliard",
             "Colt Grice",
+            "Udo",
+            "Zofia",
             "Bertholdt Hoover",
             "Marcel Galliard",
-            "Tom Xaver",
+            "Tom Xaver"
+        ]
+    },
+    "marley_security": {
+        "names": [
             "Eren Kruger",
-            "Dhalis Zachary",
+            "Gross"
+        ]
+    },
+    "paradis_military": {
+        "names": [
+            "Dhalis Zachary"
+        ]
+    },
+    "nobility": {
+        "names": [
             "Historia Reiss",
             "Wald",
             "Nicholas Lovof",
             "Rod Reiss",
+            "Ulklin Reiss",
+            "Florian Reiss",
+            "Abel Reiss",
+            "Dirk Reiss",
             "Frieda Reiss",
             "Uri Reiss",
-            "Karl Fritz",
+            "Karl Fritz"
+        ]
+    },
+    "marley": {
+        "names": [
+            "Fine Tybur",
+            "Alois Tybur",
+            "Bruno Tybur",
+            "Rico Tybur",
             "Lara Tybur",
-            "Willy Tybur",
-            "Ymir Fritz",
-            "Fritz"
+            "Willy Tybur"
+        ]
+    },
+    "eldia": {
+        "names": [
+            "Sina Fritz",
+            "Rose Fritz",
+            "Maria Fritz",
+            "Fritz",
+            "Ymir Fritz"
+        ]
+    },
+    "hizuru": {
+        "names": [
+            "Kiyomi Azumabito"
+        ]
+    },
+    "anti_marleyan_volunteers": {
+        "names": [
+            "Yelena",
+            "Onyankopon",
+            "Zeke Jaeger",
+            "Greiz"
+        ]
+    },
+    "jaegerists": {
+        "names": [
+            "Eren Jaeger",
+            "Samuel Jackson",
+            "Floch Forster",
+            "Wim",
+            "Holger",
+            "Surma",
+            "Louise"
         ]
     }
 }
