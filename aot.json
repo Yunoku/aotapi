@@ -216,7 +216,22 @@
             "Bertholdt Hoover",
             "Marcel Galliard",
             "Tom Xaver"
-        ]
+        ],
+        "images": [
+            "reiner_braun.png",
+            "annie_leonhart.png",
+            "pieck_finger.png",
+            "falco_grice.png",
+            "gabi_braun.png",
+            "porco_galliard.png",
+            "colt_grice.png",
+            "udo.png",
+            "zofia.png",
+            "bertholdt_hoover.png",
+            "marcel_galliard.png",
+            "tom_xaver.png"
+        ],
+        "occupation": "Warriors"
     },
     "marley_security": {
         "names": [
