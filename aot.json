@@ -237,12 +237,21 @@
         "names": [
             "Eren Kruger",
             "Gross"
-        ]
+        ],
+        "images": [
+            "eren_kruger.png",
+            "gross.png"
+        ],
+        "occupation": "Marley Security"
     },
     "paradis_military": {
         "names": [
             "Dhalis Zachary"
-        ]
+        ],
+        "images": [
+            "dhalis_zachary.png"
+        ],
+        "occupation": "Paradis Military"
     },
     "nobility": {
         "names": [
@@ -257,7 +266,21 @@
             "Frieda Reiss",
             "Uri Reiss",
             "Karl Fritz"
-        ]
+        ],
+        "images": [
+            "historia_reiss.png",
+            "wald.png",
+            "nicholas_lovof.png",
+            "rod_reiss.png",
+            "ulklin_reiss.png",
+            "florian_reiss.png",
+            "abel_reiss.png",
+            "dirk_reiss.png",
+            "frieda_reiss.png",
+            "uri_reiss.png",
+            "karl_fritz.png"
+        ],
+        "occupation": "Nobility"
     },
     "marley": {
         "names": [
@@ -267,7 +290,16 @@
             "Rico Tybur",
             "Lara Tybur",
             "Willy Tybur"
-        ]
+        ],
+        "images": [
+            "fine_tybur.png",
+            "alois_tybur.png",
+            "bruno_tybur.png",
+            "rico_tybur.png",
+            "lara_tybur.png",
+            "willy_tybur.png"
+        ],
+        "occupation": "Marley"
     },
     "eldia": {
         "names": [
@@ -276,12 +308,24 @@
             "Maria Fritz",
             "Fritz",
             "Ymir Fritz"
-        ]
+        ],
+        "images": [
+            "sina_fritz.png",
+            "rose_fritz.png",
+            "maria_fritz.png",
+            "fritz.png",
+            "ymir_fritz.png"
+        ],
+        "occupation": "Eldia"
     },
     "hizuru": {
         "names": [
             "Kiyomi Azumabito"
-        ]
+        ],
+        "images": [
+            "kiyomi_azumabito.png"
+        ],
+        "occupation": "Hizuru"
     },
     "anti_marleyan_volunteers": {
         "names": [
@@ -289,7 +333,14 @@
             "Onyankopon",
             "Zeke Jaeger",
             "Greiz"
-        ]
+        ],
+        "images": [
+            "yelena.png",
+            "onyankopon.png",
+            "zeke_jaeger.png",
+            "greiz.png"
+        ],
+        "occupation": "Anti Marleyan Voltunteers"
     },
     "jaegerists": {
         "names": [
@@ -300,6 +351,16 @@
             "Holger",
             "Surma",
             "Louise"
-        ]
+        ],
+        "images": [
+            "eren_jaeger.png",
+            "samuel_jackson.png",
+            "floch_forster.png",
+            "wim.png",
+            "holger.png",
+            "surma.png",
+            "louise.png"
+        ],
+        "occupation": "Jaegerists"
     }
 }
