@@ -193,7 +193,14 @@
             "Koslow",
             "Carlo",
             "Calvi"
-        ]
+        ],
+        "images": [
+            "theo_magath.png",
+            "koslow.png",
+            "carlo.png",
+            "calvi.png"
+        ],
+        "occupation": "Marleyan Military"
     },
     "warriors": {
         "names": [
