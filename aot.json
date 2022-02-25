@@ -128,7 +128,8 @@
             "kenny_ackermann.png",
             "caven.png",
             "duran.png"
-        ]
+        ],
+        "occupation": "Military Police"
     },
     "garrison": {
         "names": [
@@ -143,7 +144,21 @@
             "Hannes",
             "Ian Dietrich",
             "Mitabi Jarnach"
-        ]
+        ],
+        "images": [
+            "gustav.png",
+            "anka_rheinberger.png",
+            "kitz_woermann.png",
+            "rico_brzenska.png",
+            "carsten.png",
+            "phil.png",
+            "hugo.png",
+            "dot_pyxis.png",
+            "hannes.png",
+            "ian_dietrich.png",
+            "mitabi_jarnach.png"
+        ],
+        "occupation": "Garrison Regiment"
     },
     "cadet_corps": {
         "names": [
