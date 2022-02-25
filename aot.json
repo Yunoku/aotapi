@@ -172,7 +172,20 @@
             "Milieus Zeremski",
             "Nack Tierce",
             "Thomas Wagner"
-        ]
+        ],
+        "images": [
+            "keith_sadies.png",
+            "hanna_diament.png",
+            "ruth_d_kline.png",
+            "marco_bodt.png",
+            "tom.png",
+            "franz_kefka.png",
+            "mina_carolina.png",
+            "milieus_zeremski.png",
+            "nack_tierce.png",
+            "thomas_wagner.png"
+        ],
+        "occupation": "Cadet Corps"
     },
     "marleyan_military": {
         "names": [
