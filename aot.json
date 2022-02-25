@@ -49,7 +49,7 @@
             "Moses",
             "Furlan Church",
             "Flagon",
-            "Isabel Magnolia" 
+            "Isabel Magnolia"
         ],
         "images": [
             "armin_arlelt.png",
@@ -101,7 +101,8 @@
             "furlan_church.png",
             "flagon.png",
             "isabel_magnolia.png"
-        ]
+        ],
+        "occupation": "Scouts"
     },
     "military_police": {
         "names": [
@@ -115,6 +116,18 @@
             "Kenny Ackermann",
             "Caven",
             "Duran"
+        ],
+        "images": [
+            "waltz.png",
+            "hitch_dreyse.png",
+            "boris_feulner.png",
+            "dennis_aiblinger.png",
+            "roger.png",
+            "roeg.png",
+            "nile_dawk.png",
+            "kenny_ackermann.png",
+            "caven.png",
+            "duran.png"
         ]
     },
     "garrison": {
