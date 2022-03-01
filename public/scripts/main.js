@@ -1,25 +1,34 @@
-class Character {
-    constructor(character) {
-        this.character = character;
+import { characterObject } from "./data.js";
+// This class contains all methods used for the characters
+class Characters {
+    constructor(characters) {
+        // The characters property is a fulfilled promise
+        this.characters = characters;
     }
 
-    static getCharacter() {
-        console.log(this.character);
+    static getCharacters() {
+        this.characters.then(characters => {
+            console.log(characters);
+        });
     }
 
-    static setCharacter(character) {
-        this.character = character;
+    static getScouts() {
+        this.characters.then(characters => {
+            console.log(characters.scouts);
+        });
+    }
+
+    static setCharacters(characters) {
+        this.characters = characters;
     }
 }
 
-async function getCharacters() {
-    const response = await fetch('aot.json');
-    const characters = await response.json();
-    return characters;
-}
+// Here the class Characters is filled with a fulfilled promise
+Characters.setCharacters(
+    characterObject.then(characters => {
+        return characters;
+    })
+);
 
-getCharacters().then(characters => {
-    Character.setCharacter(characters[0]);
-});
-
-Character.getCharacter();
+Characters.getCharacters();
+Characters.getScouts();
