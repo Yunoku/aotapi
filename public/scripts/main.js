@@ -1,3 +1,4 @@
+"use strict";
 import { characterObject } from "./data.js";
 // This class contains all methods used for the characters
 class Characters {
@@ -6,15 +7,24 @@ class Characters {
         this.characters = characters;
     }
 
-    static getCharacters() {
+    static getAllScouts() {
         this.characters.then(characters => {
-            console.log(characters);
+            for(const name of characters.scouts.names) {
+                console.log(name);
+            }
         });
     }
 
-    static getScouts() {
+    static getSingleScout(givenName) {
         this.characters.then(characters => {
-            console.log(characters.scouts);
+            for(const name of characters.scouts.names) {
+                if(name == givenName) {
+                    console.log(name);
+                } else {
+                    console.error("The requested character does not exist");
+                    continue;
+                }
+            }
         });
     }
 
@@ -30,5 +40,5 @@ Characters.setCharacters(
     })
 );
 
-Characters.getCharacters();
-Characters.getScouts();
+// Characters.getAllScouts();
+Characters.getSingleScout("Mikasa Ackermann");
