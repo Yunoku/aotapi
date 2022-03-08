@@ -161,4 +161,4 @@ AoTCharacters.setCharacters(
     })
 );
 
-AoTCharacters.getAllJaegerists();
+AoTCharacters.getAllScouts();
