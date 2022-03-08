@@ -2,15 +2,26 @@
 import { characterObject } from "./data.js";
 // This class contains all methods used for the characters
 class Characters {
-    constructor(characters) {
+    constructor(characters, characterDiv, characterFigure, characterFigcaption) {
         // The characters property is a fulfilled promise
         this.characters = characters;
+        this.characterDiv = characterDiv;
+        this.characterFigure = characterFigure;
+        this.characterFigcaption = characterFigcaption;
     }
 
     static getAllScouts() {
         this.characters.then(characters => {
             for(const name of characters.scouts.names) {
-                console.log(name);
+                let characterName = name;
+                let characterImage = characters.scouts.images[characters.scouts.names.indexOf(name)];
+                let image = document.createElement('img');
+
+                this.characterDiv.appendChild(this.characterFigure);
+                this.characterFigure.append(image);
+                document.querySelectorAll('img')[characters.scouts.names.indexOf(name)].src = `../images/${characterImage}`;
+                this.characterFigure.append(this.characterFigcaption);
+                document.querySelectorAll('figcaption')[characters.scouts.names.indexOf(name)].innerHTML = characterName;
             }
         });
     }
@@ -30,6 +41,9 @@ class Characters {
 
     static setCharacters(characters) {
         this.characters = characters;
+        this.characterDiv = document.getElementById('characters');
+        this.characterFigure = document.createElement('figure');
+        this.characterFigcaption = document.createElement('figcaption');
     }
 }
 
@@ -40,5 +54,4 @@ Characters.setCharacters(
     })
 );
 
-// Characters.getAllScouts();
-Characters.getSingleScout("Mikasa Ackermann");
+Characters.getAllScouts();
