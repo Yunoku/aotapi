@@ -1,3 +1,20 @@
 body {
-    background-color: royalblue;
+    background-color: burlywood;
+}
+#characters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+figcaption {
+    font-size: 20px;
 }
