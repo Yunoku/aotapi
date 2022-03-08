@@ -39,6 +39,3 @@ Characters.setCharacters(
         return characters;
     })
 );
-
-// Characters.getAllScouts();
-Characters.getSingleScout("Mikasa Ackermann");
